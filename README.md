@@ -1,0 +1,18 @@
+Hello and welcome to my battleship project! :) 
+
+I'm glad you're here reading about my web development journey.
+
+This project comes from TheOdinProject curriculum in the testing unit. This will be my first time incorporating testing (jest) into a project and I'm actually excited to give it a try. 
+
+Test driven development seemed illogical to me at first, but either I figured out it isn't or I've been duped into believing this is a great way to write the code you ACTUALLY want to write haha.
+
+I'm most nervous about the UI portion of this project and feel good about the programming part; However, after doing the intermediate HTML/CSS unit in the TheOdinProject I think I'll have a much better handle on it!
+
+I'll leave some updates in here about how the project is going including what I'm struggling with and what's going well. Battleship project starting....... NOW!
+
+UPDATES:
+
+UPDATE1:
+Created the structure of the project using the terminal only (besides writing this file lol). Finally learned what --save-dev is so I installed Jest with that setting because it's only for development and won't be pushed to production. I also decided that even though I've only done the testing in Javascript so far I want to use TypeScript again because thinking about types helps me code better. Might whiteboard the design of this project today if I have time. Thanks for reading!
+
+UPDATE2:
