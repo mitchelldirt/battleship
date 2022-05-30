@@ -19,3 +19,5 @@ UPDATE2:
 Worked on the layout for the start screen and the placement of ships screen. Took a lot of inspiration from other odin project submissions. Definitely curious how I'm going to do the ships on a grid functionality. Tomorrow I plan on finishing up the layout and then plan code strcture and starting the project for real! :)
 
 UPDATE3:
+Finished the layout / concept! Used a pencil and paper first and then transferred all my nonsensical thoughts over to figma for the "final" iteration. 
+<img width="9056" alt="Battleship-Concept" src="https://user-images.githubusercontent.com/75150470/170995688-a92c35d3-a991-4039-a600-71bed59e20eb.png">
