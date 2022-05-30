@@ -20,4 +20,4 @@ Worked on the layout for the start screen and the placement of ships screen. Too
 
 UPDATE3:
 Finished the layout / concept! Used a pencil and paper first and then transferred all my nonsensical thoughts over to figma for the "final" iteration. 
-<img width="9056" alt="Battleship-Concept" src="https://user-images.githubusercontent.com/75150470/170995688-a92c35d3-a991-4039-a600-71bed59e20eb.png">
+<img width="9056" alt="BattleshipLayout" src="https://user-images.githubusercontent.com/75150470/170996831-25c8804c-5708-49ae-bcd5-74fe69e97002.png">
