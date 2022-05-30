@@ -16,3 +16,6 @@ UPDATE1:
 Created the structure of the project using the terminal only (besides writing this file lol). Finally learned what --save-dev is so I installed Jest with that setting because it's only for development and won't be pushed to production. I also decided that even though I've only done the testing in Javascript so far I want to use TypeScript again because thinking about types helps me code better. Might whiteboard the design of this project today if I have time. Thanks for reading!
 
 UPDATE2:
+Worked on the layout for the start screen and the placement of ships screen. Took a lot of inspiration from other odin project submissions. Definitely curious how I'm going to do the ships on a grid functionality. Tomorrow I plan on finishing up the layout and then plan code strcture and starting the project for real! :)
+
+UPDATE3:
