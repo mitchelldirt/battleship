@@ -21,3 +21,10 @@ Worked on the layout for the start screen and the placement of ships screen. Too
 UPDATE3:
 Finished the layout / concept! Used a pencil and paper first and then transferred all my nonsensical thoughts over to figma for the "final" iteration. 
 <img width="9056" alt="BattleshipLayout" src="https://user-images.githubusercontent.com/75150470/170996831-25c8804c-5708-49ae-bcd5-74fe69e97002.png">
+
+UPDATE4:
+Added parcel to the project and got typescript configured with babel and jest :)
+
+UPDATE 5:
+Created a color palette for the project on coloors!
+![BattleshipColorsPalette](https://user-images.githubusercontent.com/75150470/171498700-f01f5ef8-84c1-4b59-8dba-9dc791c9c957.png)
