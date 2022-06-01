@@ -1,0 +1,1 @@
+{"mappings":"A,Y,C;A,M,C,c,C,O,E,Y,E;I,K,E,I;C,C,C;A,O,C,G,G,G,C;AAAO,SAASA,GAAT,CAAaC,CAAb,EAAwBC,CAAxB,EAAmC;IACtC,OAAOD,CAAC,GAAGC,CAAX,CAAA;CACH","sources":["src/index.ts"],"sourcesContent":["export function add(x: number, y: number) {\n    return x + y;\n};"],"names":["add","x","y"],"version":3,"file":"index.377278e2.js.map","sourceRoot":"/__parcel_source_root/"}
