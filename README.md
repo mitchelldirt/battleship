@@ -28,3 +28,6 @@ Added parcel to the project and got typescript configured with babel and jest :)
 UPDATE 5:
 Created a color palette for the project on coloors!
 ![BattleshipColorsPalette](https://user-images.githubusercontent.com/75150470/171498700-f01f5ef8-84c1-4b59-8dba-9dc791c9c957.png)
+
+UPDATE6:
+Got a cold so not a lot of coding lately. Started the HTML structure. Put the CSS Variables in my css file. Would love to work on this more this week, but going on vacation soon hahaha
