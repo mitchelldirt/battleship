@@ -1,3 +1,12 @@
+:root {
+  --dark-jungle-green: #001514ff;
+  --battleship-grey: #7e8a89ff;
+  --white: #fbfffeff;
+  --blood-red: #6b0504ff;
+  --marker-hit-red: #a3320bff;
+  --marker-miss-blue: #1c74d1;
+}
+
 h1 {
   color: hotpink;
   font-family: cursive;
