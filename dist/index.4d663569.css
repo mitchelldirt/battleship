@@ -5,11 +5,33 @@
   --blood-red: #6b0504;
   --marker-hit-red: #a3320b;
   --marker-miss-blue: #1c74d1;
+  --black: #130000;
+}
+
+html {
+  font-size: calc(1em + 1vw);
+}
+
+header {
+  width: 100%;
+  justify-content: center;
+  display: flex;
 }
 
 h1 {
-  color: #ff69b4;
+  color: #130000;
   font-family: cursive;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+  fill: var(--black);
+  margin-left: .4em;
+}
+
+svg:hover {
+  fill: var(--blood-red);
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */
