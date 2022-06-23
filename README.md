@@ -12,22 +12,25 @@ I'll leave some updates in here about how the project is going including what I'
 
 UPDATES:
 
-UPDATE1:
+UPDATE 1:
 Created the structure of the project using the terminal only (besides writing this file lol). Finally learned what --save-dev is so I installed Jest with that setting because it's only for development and won't be pushed to production. I also decided that even though I've only done the testing in Javascript so far I want to use TypeScript again because thinking about types helps me code better. Might whiteboard the design of this project today if I have time. Thanks for reading!
 
-UPDATE2:
+UPDATE 2:
 Worked on the layout for the start screen and the placement of ships screen. Took a lot of inspiration from other odin project submissions. Definitely curious how I'm going to do the ships on a grid functionality. Tomorrow I plan on finishing up the layout and then plan code strcture and starting the project for real! :)
 
-UPDATE3:
+UPDATE 3:
 Finished the layout / concept! Used a pencil and paper first and then transferred all my nonsensical thoughts over to figma for the "final" iteration. 
 <img width="9056" alt="BattleshipLayout" src="https://user-images.githubusercontent.com/75150470/170996831-25c8804c-5708-49ae-bcd5-74fe69e97002.png">
 
-UPDATE4:
+UPDATE 4:
 Added parcel to the project and got typescript configured with babel and jest :)
 
 UPDATE 5:
 Created a color palette for the project on coloors!
 ![BattleshipColorsPalette](https://user-images.githubusercontent.com/75150470/171498700-f01f5ef8-84c1-4b59-8dba-9dc791c9c957.png)
 
-UPDATE6:
+UPDATE 6:
 Got a cold so not a lot of coding lately. Started the HTML structure. Put the CSS Variables in my css file. Would love to work on this more this week, but going on vacation soon hahaha
+
+UPDATE 7: 
+Finally back from vacation and busy work!! Styled the header today including getting my SVG to change color :)
