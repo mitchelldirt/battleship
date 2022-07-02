@@ -1,3 +1,6 @@
-export function add(x: number, y: number) {
-    return x + y;
-};
+window.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        const loadingBar = document.querySelector(".progress") as HTMLDivElement;
+        loadingBar.classList.remove("displayNone");
+    }
+});

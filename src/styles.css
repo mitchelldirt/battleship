@@ -49,7 +49,55 @@ svg:hover {
   transform: rotate(360deg);
 }
 
+kbd {
+  border: 2px solid darkgray; 
+  box-shadow: 2px 2px darkgray; 
+  font-size: .85em; 
+  line-height: .85em; 
+  display: inline-block;
+  font-weight: 600;
+  letter-spacing: .05em; 
+  padding: 3px 5px;
+  white-space: nowrap;
+}
 
+.displayNone {
+  display: none;
+}
+
+.progress{
+  position: relative;
+  height: 10px;
+  width: 50%;
+  border: 10px solid var(--battleship-grey);
+  border-radius: 15px;
+}
+
+.progress .color{
+  position: absolute;
+  background-color: var(--blood-red);
+  width: 0px;
+  height: 10px;
+  border-radius: 15px;
+  animation: progress 4s infinite linear;    
+}
+@keyframes progress{
+  0%{
+    width: 0%;
+  }
+  25%{
+      width: 50%;
+  }
+  50%{
+      width: 75%;
+  }
+  75%{
+      width: 85%;
+  }
+  100%{
+      width: 100%;
+  }
+}
 
 footer {
   position: fixed;

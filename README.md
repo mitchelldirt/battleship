@@ -36,4 +36,4 @@ UPDATE 7:
 Finally back from vacation and busy work!! Styled the header today including getting my SVG to change color :)
 
 UPDATE 8:
-Updated font for the title, Added an animation and link to my github repo for the github logo, and added a couple more parts of the header and footer
+Updated font for the title, Added an animation and link to my github repo for the github logo, and added a couple more parts of the header and footer. Also added the event that causes the loading bar to appear when pressing the enter button
