@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Monofett&family=Playfair+Display:ital,wght@1,700&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap";
 :root {
   --dark-jungle-green: #001514;
   --battleship-grey: #7e8a89;
@@ -12,6 +13,17 @@ html {
   font-size: calc(1em + 1vw);
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+}
+
 header {
   width: 100%;
   justify-content: center;
@@ -19,19 +31,38 @@ header {
 }
 
 h1 {
-  color: #130000;
-  font-family: cursive;
+  color: var(--black);
+  letter-spacing: .3ch;
+  font-family: Monofett;
 }
 
-svg {
+h1 > a > svg {
   width: 50px;
   height: 50px;
   fill: var(--black);
   margin-left: .4em;
+  transition: all 1s ease-in-out;
 }
 
 svg:hover {
   fill: var(--blood-red);
+  transform: rotate(360deg);
+}
+
+footer {
+  background-color: var(--battleship-grey);
+  width: 100%;
+  height: 32px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+footer > p {
+  color: var(--white);
 }
 
 /*# sourceMappingURL=index.4d663569.css.map */

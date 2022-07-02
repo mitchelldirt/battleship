@@ -34,3 +34,6 @@ Got a cold so not a lot of coding lately. Started the HTML structure. Put the CS
 
 UPDATE 7: 
 Finally back from vacation and busy work!! Styled the header today including getting my SVG to change color :)
+
+UPDATE 8:
+Updated font for the title, Added an animation and link to my github repo for the github logo, and added a couple more parts of the header and footer
