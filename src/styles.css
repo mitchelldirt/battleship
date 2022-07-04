@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Monofett&family=Playfair+Display:ital,wght@1,700&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Monofett&family=Playfair+Display:ital,wght@1,700&family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap");
 
 :root {
   --dark-jungle-green: #001514ff;
@@ -11,9 +10,12 @@
   --black: #130000;
 }
 
-html { font-size: calc(1em + 1vw) }
+html {
+  font-size: calc(1em + 1vw);
+}
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -33,12 +35,12 @@ header {
 
 h1 {
   color: var(--black);
-  font-family: 'Monofett'; 
-  letter-spacing: .3ch;
+  font-family: "Monofett";
+  letter-spacing: 0.3ch;
 }
 
 h1 > a > svg {
-  margin-left: .4em;
+  margin-left: 0.4em;
   width: 50px;
   height: 50px;
   fill: var(--black);
@@ -64,13 +66,13 @@ splashPage {
 }
 
 kbd {
-  border: 2px solid darkgray; 
-  box-shadow: 2px 2px darkgray; 
-  font-size: .85em; 
-  line-height: .85em; 
+  border: 2px solid darkgray;
+  box-shadow: 2px 2px darkgray;
+  font-size: 0.85em;
+  line-height: 0.85em;
   display: inline-block;
   font-weight: 600;
-  letter-spacing: .05em; 
+  letter-spacing: 0.05em;
   padding: 3px 5px;
   white-space: nowrap;
 }
@@ -79,7 +81,7 @@ kbd {
   visibility: hidden;
 }
 
-.progress{
+.progress {
   position: relative;
   height: 10px;
   width: 50%;
@@ -87,33 +89,33 @@ kbd {
   border-radius: 15px;
 }
 
-.progress .color{
+.progress .color {
   position: absolute;
   background-color: var(--blood-red);
   width: 0px;
   height: 10px;
-  border-radius: 15px;   
+  border-radius: 15px;
 }
 
 .loadingAnimation {
-  animation: progress 4s forwards linear; 
+  animation: progress 4s forwards linear;
 }
 
-@keyframes progress{
-  0%{
+@keyframes progress {
+  0% {
     width: 0%;
   }
-  25%{
-      width: 50%;
+  25% {
+    width: 50%;
   }
-  50%{
-      width: 75%;
+  50% {
+    width: 75%;
   }
-  75%{
-      width: 85%;
+  75% {
+    width: 85%;
   }
-  100%{
-      width: 100%;
+  100% {
+    width: 100%;
   }
 }
 
@@ -130,5 +132,5 @@ footer {
 }
 
 footer > p {
-  color: var(--white)
+  color: var(--white);
 }

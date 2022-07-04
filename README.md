@@ -1,8 +1,8 @@
-Hello and welcome to my battleship project! :) 
+Hello and welcome to my battleship project! :)
 
 I'm glad you're here reading about my web development journey.
 
-This project comes from TheOdinProject curriculum in the testing unit. This will be my first time incorporating testing (jest) into a project and I'm actually excited to give it a try. 
+This project comes from TheOdinProject curriculum in the testing unit. This will be my first time incorporating testing (jest) into a project and I'm actually excited to give it a try.
 
 Test driven development seemed illogical to me at first, but either I figured out it isn't or I've been duped into believing this is a great way to write the code you ACTUALLY want to write haha.
 
@@ -19,7 +19,7 @@ UPDATE 2:
 Worked on the layout for the start screen and the placement of ships screen. Took a lot of inspiration from other odin project submissions. Definitely curious how I'm going to do the ships on a grid functionality. Tomorrow I plan on finishing up the layout and then plan code strcture and starting the project for real! :)
 
 UPDATE 3:
-Finished the layout / concept! Used a pencil and paper first and then transferred all my nonsensical thoughts over to figma for the "final" iteration. 
+Finished the layout / concept! Used a pencil and paper first and then transferred all my nonsensical thoughts over to figma for the "final" iteration.
 <img width="9056" alt="BattleshipLayout" src="https://user-images.githubusercontent.com/75150470/170996831-25c8804c-5708-49ae-bcd5-74fe69e97002.png">
 
 UPDATE 4:
@@ -32,7 +32,7 @@ Created a color palette for the project on coloors!
 UPDATE 6:
 Got a cold so not a lot of coding lately. Started the HTML structure. Put the CSS Variables in my css file. Would love to work on this more this week, but going on vacation soon hahaha
 
-UPDATE 7: 
+UPDATE 7:
 Finally back from vacation and busy work!! Styled the header today including getting my SVG to change color :)
 
 UPDATE 8:

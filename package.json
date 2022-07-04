@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "start": "parcel ./src/index.html"
+    "start": "parcel ./src/index.html",
+    "prettier": "npx prettier --write ."
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,7 @@
     "babel-jest": "^28.1.0",
     "jest": "^28.1.0",
     "parcel": "^2.6.0",
+    "prettier": "2.7.1",
     "typescript": "^4.7.2"
   }
 }
