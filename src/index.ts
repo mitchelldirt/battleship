@@ -1,3 +1,4 @@
+
 let main = document.querySelector("main") as HTMLDivElement;
 
 window.onload = () => {
