@@ -40,3 +40,11 @@ Updated font for the title, Added an animation and link to my github repo for th
 
 UPDATE 9:
 Finished the splash page - now I plan on turning the splash page into a "component" of sorts. This way I can swap out different games screens easily.
+
+UPDATE 10:
+Read the instructions from The Odin Project and realized I shouldn't be worrying about the interface, but instead should worry about the functions and testing. Started creating functionality by making a factory function for ship and creating the methods for the ships. Today I went in and wrote a couple of really easy tests to refamiliarise myself with the process and also ensure my objects were being created successfully.
+
+Finally working 8 hour days which is awesome because I'll be consistently working on this project and those after :)
+
+UPDATE 11:
+
