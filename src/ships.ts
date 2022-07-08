@@ -25,4 +25,4 @@ function createShip(length: number, coords?: number[]) {
     return ship;
 };
 
-let testShip = createShip(3, [1, 9, 17]);
+module.exports.createShip = createShip;
