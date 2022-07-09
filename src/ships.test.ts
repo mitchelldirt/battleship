@@ -27,5 +27,15 @@ describe("Testing the ship methods", () => {
         const ship = myShipFunctions.createShip(3, [1, 2, 3]);
         ship.hit(3)
         expect(ship.coords).toEqual([1, 2, 0]);
+    });
+
+    test('isSunk recognizes that the ship is sunk', () => {
+        const sunkShip = myShipFunctions.createShip(3, [0, 0, 0]);
+        expect(sunkShip.isSunk()).toBeTruthy()
+    });
+
+    test('Ship is NOT sunk', () => {
+        const unsunkShip = myShipFunctions.createShip(3, [0, 0, 3]);
+        expect(unsunkShip.isSunk()).toBeFalsy()
     })
 })

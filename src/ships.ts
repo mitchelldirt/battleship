@@ -8,6 +8,14 @@ function createShip(length: number, coords: number[]): battleship {
                 let hitPosition = coords.indexOf(position);
                 coords[hitPosition] = 0;
             }
+        },
+        isSunk: () => {
+            for (let coord of coords) {
+                if (coord != 0) {
+                    return false;
+                }
+            }
+            return true;
         }
     }
     return ship;
@@ -16,7 +24,8 @@ function createShip(length: number, coords: number[]): battleship {
 interface battleship {
     length: number,
     coords: number[],
-    hit: (position: number) => void
+    hit: (position: number) => void,
+    isSunk: () => boolean
 }
 
 module.exports.createShip = createShip;
