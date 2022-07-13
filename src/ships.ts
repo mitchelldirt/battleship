@@ -1,4 +1,4 @@
-function createShip(length: number, coords: number[]): battleship {
+function createShip(length: number, coords: Array<number | string>): battleship {
     let ship: battleship = {
         length: length,
         coords: coords,
@@ -6,12 +6,12 @@ function createShip(length: number, coords: number[]): battleship {
             console.log(this)
             if (coords.indexOf(position) !== -1) {
                 let hitPosition = coords.indexOf(position);
-                coords[hitPosition] = 0;
+                coords[hitPosition] = "X";
             }
         },
         isSunk: () => {
             for (let coord of coords) {
-                if (coord != 0) {
+                if (coord != "X") {
                     return false;
                 }
             }
@@ -23,7 +23,7 @@ function createShip(length: number, coords: number[]): battleship {
 
 interface battleship {
     length: number,
-    coords: number[],
+    coords: Array<number | string>,
     hit: (position: number) => void,
     isSunk: () => boolean
 }

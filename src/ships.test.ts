@@ -20,22 +20,22 @@ describe("Testing the ship methods", () => {
     test('Hit method changes the value of the hit coordinate', () => {
         const ship = myShipFunctions.createShip(3, [1, 2, 3]);
         ship.hit(1)
-        expect(ship.coords).toEqual([0, 2, 3]);
+        expect(ship.coords).toEqual(["X", 2, 3]);
     });
 
     test('Hit method changes the value of the hit coordinate #2', () => {
         const ship = myShipFunctions.createShip(3, [1, 2, 3]);
         ship.hit(3)
-        expect(ship.coords).toEqual([1, 2, 0]);
+        expect(ship.coords).toEqual([1, 2, "X"]);
     });
 
     test('isSunk recognizes that the ship is sunk', () => {
-        const sunkShip = myShipFunctions.createShip(3, [0, 0, 0]);
+        const sunkShip = myShipFunctions.createShip(3, ["X", "X", "X"]);
         expect(sunkShip.isSunk()).toBeTruthy()
     });
 
     test('Ship is NOT sunk', () => {
-        const unsunkShip = myShipFunctions.createShip(3, [0, 0, 3]);
+        const unsunkShip = myShipFunctions.createShip(3, ["X", "X", 3]);
         expect(unsunkShip.isSunk()).toBeFalsy()
     })
 })

@@ -47,4 +47,4 @@ Read the instructions from The Odin Project and realized I shouldn't be worrying
 Finally working 8 hour days which is awesome because I'll be consistently working on this project and those after :)
 
 UPDATE 11:
-
+Wasn't feeling as motivated to code after working from home, but got back into it tonight :) Learned how to do a union type with an array to create an array that accepts strings AND numbers. Refactored the ships so that instead of 0 for a hit it's now "X"
