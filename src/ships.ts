@@ -2,6 +2,7 @@ function createShip(length: number, coords: Array<number | string>): battleship 
     let ship: battleship = {
         length: length,
         coords: coords,
+        sunk: false,
         hit: (position: number) => {
             console.log(this)
             if (coords.indexOf(position) !== -1) {
@@ -15,7 +16,7 @@ function createShip(length: number, coords: Array<number | string>): battleship 
                     return false;
                 }
             }
-            return true;
+            ship.sunk = true;
         }
     }
     return ship;
@@ -24,8 +25,9 @@ function createShip(length: number, coords: Array<number | string>): battleship 
 interface battleship {
     length: number,
     coords: Array<number | string>,
+    sunk: boolean,
     hit: (position: number) => void,
-    isSunk: () => boolean
+    isSunk: () => void
 }
 
 module.exports.createShip = createShip;
